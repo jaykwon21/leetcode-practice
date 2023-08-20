@@ -55,3 +55,23 @@ for num in range(len(result)):
 
 print(prize_dict)
 
+
+# score = [5,4,3,2,1]
+score = [10,3,8,9,4]
+score2 = sorted(score)
+score3 = score2[::-1]
+print(score3)
+
+final = []
+
+result[0] = "Gold Medal"
+result[1] = "Silver Medal"
+result[2] = "Bronze Medal"
+result[3] = "4th"
+result[4] = "5th"
+final.append(result[0])
+final.append(result[1])
+final.append(result[2])
+final.append(result[3])
+final.append(result[4])
+print(final)
